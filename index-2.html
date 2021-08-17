@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en" data-brk-skin="brk-red.css">
+
+<head>
+	<title>Labotta</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon-precomposed" href="favicon.ico">
+	<meta name="theme-color" content="#2775FF">
+	<meta name="keywords" content="themeforest, theme, html, template">
+	<meta name="description" content="themeforest, theme, html, template">
+	<link rel="stylesheet" id="brk-direction-bootstrap" href="css/assets/bootstrap.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" id="brk-skin-color" href="css/brk-red/brk-red.css">
+	<link id="brk-base-color" rel="stylesheet" href="css/brk-red/skins/brk-base-color.css">
+	<link rel="stylesheet" id="brk-direction-offsets" href="css/assets/offsets.css">
+	<link id="brk-css-min" rel="stylesheet" href="css/brk-red/assets/styles.min.css">
+	<link rel="stylesheet" href="vendor/revslider/css/settings.css">
+</head>
+
+<body>
+	<div class="brk-loader">
+		<div class="brk-loader__loader"></div>
+	</div>
+	<style>
+		@media (min-width: 992px) {
+			.brk-mt-minus-280 {
+				margin-top: -280px;
+			}
+		}
+	</style>
+	<style type="text/css">
+		.brk-button-shadow {
+			-webkit-box-shadow: 0 5px 16px rgba(39, 117, 255, .5) !important;
+			-moz-box-shadow: 0 5px 16px rgba(39, 117, 255, .5) !important;
+			box-shadow: 0 5px 16px rgba(39, 117, 255, .5) !important;
+			margin: 20px !important
+		}
+
+		.brk-castom-btn.rev-btn.rev-withicon i {
+			margin-left: 0 !important;
+			margin-right: 20px !important;
+			vertical-align: 0;
+			top: -1px
+		}
+
+		.brk-tp-mask-wrap .tp-mask-wrap {
+			-webkit-border-radius: 8px;
+			-moz-border-radius: 8px;
+			border-radius: 8px;
+			-webkit-box-shadow: 0 20px 40px rgba(39, 117, 255, .1);
+			-moz-box-shadow: 0 20px 40px rgba(39, 117, 255, .1);
+			box-shadow: 0 20px 40px rgba(39, 117, 255, .1);
+			overflow: hidden !important
+		}
+
+		.forcefullwidth_wrapper_tp_banner {
+			z-index: 9
+		}
+	</style>
+	<style type="text/css">
+		#rev_slider_17_1 .zeus .tp-bullet {
+			box-sizing: content-box;
+			-webkit-box-sizing: content-box;
+			border-radius: 50%;
+			background-color: rgba(0, 0, 0, 0);
+			-webkit-transition: opacity 0.3s ease;
+			transition: opacity 0.3s ease;
+			width: 13px;
+			height: 13px;
+			border: 2px solid rgb(255, 255, 255)
+		}
+
+		#rev_slider_17_1 .zeus .tp-bullet:after {
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			border-radius: 50%;
+			background-color: rgb(255, 255, 255);
+			-webkit-transform: scale(0);
+			transform: scale(0);
+			-webkit-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			-webkit-transition: -webkit-transform 0.3s ease;
+			transition: transform 0.3s ease
+		}
+
+		#rev_slider_17_1 .zeus .tp-bullet:hover:after,
+		#rev_slider_17_1 .zeus .tp-bullet.selected:after {
+			-webkit-transform: scale(1.2);
+			transform: scale(1.2)
+		}
+
+		#rev_slider_17_1 .zeus .tp-bullet-image,
+		#rev_slider_17_1 .zeus .tp-bullet-imageoverlay {
+			width: 135px;
+			height: 60px;
+			position: absolute;
+			background: #000;
+			background: rgba(0, 0, 0, 0.5);
+			bottom: 13px;
+			margin-bottom: 10px;
+			transform: translateX(-50%);
+			-webkit-transform: translateX(-50%);
+			box-sizing: border-box;
+			background-size: cover;
+			background-position: center center;
+			visibility: hidden;
+			opacity: 0;
+			-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+			-webkit-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			-webkit-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+			border-radius: 4px
+		}
+
+		#rev_slider_17_1 .zeus .tp-bullet-title,
+		#rev_slider_17_1 .zeus .tp-bullet-imageoverlay {
+			z-index: 2;
+			-webkit-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+			transform: translateX(-50%);
+			-webkit-transform: translateX(-50%)
+		}
+
+		#rev_slider_17_1 .zeus .tp-bullet-title {
+			color: rgb(255, 255, 255);
+			text-align: center;
+			line-height: 15px;
+			font-size: 13px;
+			font-weight: 600;
+			z-index: 3;
+			visibility: hidden;
+			opacity: 0;
+			-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+			-webkit-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			-webkit-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+			position: absolute;
+			bottom: 45px;
+			width: 135px;
+			vertical-align: middle
+		}
+
+		#rev_slider_17_1 .zeus .tp-bullet:hover .tp-bullet-title,
+		#rev_slider_17_1 .zeus .tp-bullet:hover .tp-bullet-image,
+		#rev_slider_17_1 .zeus .tp-bullet:hover .tp-bullet-imageoverlay {
+			opacity: 1;
+			visibility: visible;
+			-webkit-transform: translateY(0px) translateX(-50%);
+			transform: translateY(0px) translateX(-50%)
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-vertical .tp-bullet-image,
+		#rev_slider_17_1 .zeus.nav-dir-vertical .tp-bullet-imageoverlay {
+			bottom: auto;
+			margin-right: 10px;
+			margin-bottom: 0px;
+			right: 13px;
+			transform: translateX(0px) translateY(-50%);
+			-webkit-transform: translateX(0px) translateY(-50%)
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-vertical .tp-bullet:hover .tp-bullet-image {
+			transform: translateX(0px) translateY(-50%);
+			-webkit-transform: translateX(0px) translateY(-50%)
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-vertical .tp-bullet-title,
+		#rev_slider_17_1 .zeus.nav-dir-vertical .tp-bullet-imageoverlay {
+			z-index: 2;
+			-webkit-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+			transform: translateX(0px) translateY(-50%);
+			-webkit-transform: translateX(0px) translateY(-50%)
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-vertical .tp-bullet-title {
+			bottom: auto;
+			right: 100%;
+			margin-right: 10px
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-vertical .tp-bullet:hover .tp-bullet-title,
+		#rev_slider_17_1 .zeus.nav-dir-vertical .tp-bullet:hover .tp-bullet-image,
+		#rev_slider_17_1 .zeus.nav-dir-vertical .tp-bullet:hover .tp-bullet-imageoverlay {
+			transform: translateX(0px) translateY(-50%);
+			-webkit-transform: translateX(0px) translateY(-50%)
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-vertical.nav-pos-hor-left .tp-bullet-image,
+		#rev_slider_17_1 .zeus.nav-dir-vertical.nav-pos-hor-left .tp-bullet-imageoverlay {
+			bottom: auto;
+			margin-left: 10px;
+			margin-bottom: 0px;
+			left: 13px;
+			transform: translateX(0px) translateY(-50%);
+			-webkit-transform: translateX(0px) translateY(-50%)
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-vertical.nav-pos-hor-left .tp-bullet:hover .tp-bullet-image {
+			transform: translateX(0px) translateY(-50%);
+			-webkit-transform: translateX(0px) translateY(-50%)
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-vertical.nav-pos-hor-left .tp-bullet-title,
+		#rev_slider_17_1 .zeus.nav-dir-vertical.nav-pos-hor-left .tp-bullet-imageoverlay {
+			z-index: 2;
+			-webkit-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+			transform: translateX(0px) translateY(-50%);
+			-webkit-transform: translateX(0px) translateY(-50%)
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-vertical.nav-pos-hor-left .tp-bullet-title {
+			bottom: auto;
+			left: 100%;
+			margin-left: 10px
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-horizontal.nav-pos-ver-top .tp-bullet-image,
+		#rev_slider_17_1 .zeus.nav-dir-horizontal.nav-pos-ver-top .tp-bullet-imageoverlay {
+			bottom: auto;
+			top: 13px;
+			margin-top: 10px;
+			margin-bottom: 0px;
+			left: 0px;
+			transform: translateY(0px) translateX(-50%);
+			-webkit-transform: translateX(0px) translateX(-50%)
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-horizontal.nav-pos-ver-top .tp-bullet:hover .tp-bullet-image {
+			transform: scale(1) translateY(0px) translateX(-50%);
+			-webkit-transform: scale(1) translateY(0px) translateX(-50%)
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-horizontal.nav-pos-ver-top .tp-bullet-title,
+		#rev_slider_17_1 .zeus.nav-dir-horizontal.nav-pos-ver-top .tp-bullet-imageoverlay {
+			z-index: 2;
+			-webkit-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+			transform: translateY(0px) translateX(-50%);
+			-webkit-transform: translateY(0px) translateX(-50%)
+		}
+
+		#rev_slider_17_1 .zeus.nav-dir-horizontal.nav-pos-ver-top .tp-bullet-title {
+			bottom: auto;
+			top: 13px;
+			margin-top: 20px
+		}
+	</style>
+	<div class="main-page">
+		<div class="brk-header-mobile">
+			<div class="brk-header-mobile__open">
+				<span></span>
+			</div>
+			<div class="brk-header-mobile__logo">
+				<a href="#">
+					<img class="brk-header-mobile__logo-1 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/logo-dark-2.png" alt="alt">
+					<img class="brk-header-mobile__logo-2 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/logo-dark-2.png" alt="alt">
+				</a>
+			</div>
+		</div>
+		<header class="brk-header brk-header_style-1 brk-header_color-dark brk-header_skin-1 position-fixed d-lg-flex flex-column" style="display: none;" data-logo-src="img/logo-dark-2.png" data-bg-mobile="img/brk-bg-mobile-menu.jpg" data-brk-library="component__header">
+			<div class="brk-header__top-bar order-lg-1 order-2 font__family-montserrat brk-header__top-bar_scroll" style="height: 46px;">
+				<div class="brk-header__title font__family-montserrat font__weight-bold">Contact Us</div>
+				<div class="container-fluid">
+					<div class="row align-items-center">
+						<div class="col-lg-6 align-self-lg-stretch text-left">
+							<div class="brk-header__element brk-header__element_skin-2 brk-header__item">
+								<a href="tel:88002003040" class="brk-header__element--wrap">
+									<i class="fa fa-phone"></i>
+									<span class="brk-header__element--label font__weight-semibold">+91 8888 8888 88</span>
+								</a>
+							</div>
+							
+						</div>
+						<div class="col-lg-6 align-self-lg-stretch text-left text-lg-right">
+							<div class="brk-header__element brk-header__element_skin-2 brk-header__item">
+								<a href="#" class="brk-header__element--wrap">
+									<i class="fa fa-envelope"></i>
+									<span class="brk-header__element--label font__weight-medium">hello@labotta.com</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="brk-header__main-bar brk-header_border-top-dark order-lg-2 order-1" style="height: 72px;">
+				<div class="container-fluid">
+					<div class="row align-items-center">
+						<div class="col-lg-2 align-self-lg-center d-none d-lg-flex ml-10">
+							<a href="/" class="brk-header__logo brk-header__item @@modifier">
+								<img class="brk-header__logo-1 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/png-logo-1-1.png" alt="alt">
+								<img class="brk-header__logo-2 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/png-logo-1-179x56.png" alt="alt">
+							</a>
+						</div>
+						<div class="col-lg align-self-lg-stretch d-lg-flex">
+							<nav class="brk-nav brk-header__item">
+								<ul class="brk-nav__menu">
+									<li class="brk-nav__drop-down-effect">
+										<a href="#">
+											<span>Home</span>
+										</a>
+									</li>
+									<li class="brk-nav__drop-down-effect">
+										<a href="#">
+											<span>About</span>
+										</a>
+									</li>
+									<li class="brk-nav__drop-down-effect">
+										<a href="#">
+											<span>Products</span>
+										</a>
+									</li>
+									<li class="brk-nav__drop-down-effect">
+										<a href="#">
+											<span>Contact</span>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<h1 class="sr-only">Agency Modern</h1>
+		<div id="rev_slider_17_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="demo_agency_modern" data-source="gallery" style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+			<div id="rev_slider_17_1" class="rev_slider fullwidthabanner tp-overflow-hidden" style="display:none;" data-version="5.4.8.1">
+				<ul>
+					<li data-index="rs-40" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="img/demo_agency_modern/images/transparent.png" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+						<img src="img/demo_agency_modern/images/transparent.png" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+						<div class="tp-caption rev_group" id="slide-40-layer-9" data-x="['left','left','left','center']" data-hoffset="['335','15','30','0']" data-y="['middle','middle','middle','middle']" data-voffset="['40','40','40','0']" data-width="['590','590','546','310']" data-height="['365','365','365','350']" data-whitespace="normal" data-type="group" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":10,"speed":10,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":10,"frame":"999","ease":"Power3.easeInOut"}]' data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; min-width: 590px; max-width: 590px; max-width: 365px; max-width: 365px; white-space: normal; font-size: 20px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;">
+							<h1 class="tp-caption" id="slide-40-layer-4" data-x="['left','left','left','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']" data-fontsize="['56','56','42','30']" data-lineheight="['60','60','48','36']" data-width="['405','405','406','261']" data-height="['130','130','none','73']" data-whitespace="normal" data-type="text" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"+0","split":"chars","splitdelay":0.05,"speed":1500,"split_direction":"forward","frame":"0","from":"y:[-100%];z:0;rZ:35deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]' data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="['inherit','inherit','inherit','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; min-width: 405px; max-width: 405px; max-width: 130px; max-width: 130px; white-space: normal; font-size: 56px; line-height: 60px; font-weight: 100; color: #272727; letter-spacing: 0px;font-family:Montserrat;">Embrace <span style="font-weight: 500">Soul</span> </h1>
+							<span class="tp-caption" id="slide-40-layer-3" data-x="['left','left','left','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['162','162','142','101']" data-fontsize="['16','16','15','14']" data-lineheight="['26','26','24','24']" data-width="['581','581','523','300']" data-height="['none','none','73','none']" data-whitespace="normal" data-type="text" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"+790","speed":2000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]' data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="['inherit','inherit','inherit','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; min-width: 581px; max-width: 581px; white-space: normal; font-size: 16px; line-height: 26px; font-weight: 400; color: #9f9f9f; letter-spacing: 0px;font-family:Open Sans;">Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. </span>
+							<div class="tp-caption rev-btn brk-button-shadow brk-castom-btn" id="slide-40-layer-5" data-x="['left','left','left','center']" data-hoffset="['-20','-20','-20','0']" data-y="['top','top','top','top']" data-voffset="['275','275','257','257']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"+1190","speed":1500,"frame":"0","from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(2,2,2);bs:solid;bw:0 0 0 0;"}]' data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[16,16,16,16]" data-paddingright="[55,55,55,55]" data-paddingbottom="[16,16,16,16]" data-paddingleft="[55,55,55,55]" style="z-index: 9; white-space: nowrap; font-size: 16px; line-height: 24px; font-weight: 300; color: rgba(255,255,255,1); letter-spacing: ;font-family:Open Sans;text-transform:uppercase;background-color:rgb(255, 19, 0);border-color:rgba(0,0,0,1);border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Read More </div>
+						</div>
+						<div class="tp-caption tp-resizeme" id="slide-40-layer-1" data-x="['right','right','right','right']" data-hoffset="['140px','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']" data-width="none" data-height="none" data-whitespace="nowrap" data-visibility="['on','on','off','off']" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1500,"frame":"0","from":"x:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]' data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5;"><img src="img/png-file-(1)-(1).png" alt="" data-ww="['400px','400px','400px','400px']" data-hh="['822','738','738','738']" data-no-retina> </div>
+					</li>
+					<li data-index="rs-89" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="img/demo_agency_modern/images/transparent.png" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+						<img src="img/demo_agency_modern/images/transparent.png" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+						<div class="tp-caption rev_group" id="slide-89-layer-9" data-x="['left','left','left','center']" data-hoffset="['335','15','30','0']" data-y="['middle','middle','middle','middle']" data-voffset="['40','40','40','0']" data-width="['590','590','546','310']" data-height="['365','365','365','350']" data-whitespace="normal" data-type="group" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":10,"speed":10,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":10,"frame":"999","ease":"Power3.easeInOut"}]' data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; min-width: 590px; max-width: 590px; max-width: 365px; max-width: 365px; white-space: normal; font-size: 20px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;">
+							<h1 class="tp-caption" id="slide-89-layer-4" data-x="['left','left','left','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']" data-fontsize="['56','56','42','30']" data-lineheight="['60','60','48','36']" data-width="['405','405','406','261']" data-height="['130','130','none','73']" data-whitespace="normal" data-type="text" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"+0","split":"chars","splitdelay":0.05,"speed":1500,"split_direction":"forward","frame":"0","from":"y:[-100%];z:0;rZ:35deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]' data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="['inherit','inherit','inherit','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; min-width: 405px; max-width: 405px; max-width: 130px; max-width: 130px; white-space: normal; font-size: 56px; line-height: 60px; font-weight: 100; color: #272727; letter-spacing: 0px;font-family:Montserrat;">Soul <span style="font-weight: 500">Soothing</span> </h1>
+							<span class="tp-caption" id="slide-89-layer-3" data-x="['left','left','left','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['162','162','142','101']" data-fontsize="['16','16','15','14']" data-lineheight="['26','26','24','24']" data-width="['581','581','523','300']" data-height="['none','none','73','none']" data-whitespace="normal" data-type="text" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"+790","speed":2000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]' data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="['inherit','inherit','inherit','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; min-width: 581px; max-width: 581px; white-space: normal; font-size: 16px; line-height: 26px; font-weight: 400; color: #9f9f9f; letter-spacing: 0px;font-family:Open Sans;">Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. </span>
+							<div class="tp-caption rev-btn brk-button-shadow brk-castom-btn" id="slide-89-layer-5" data-x="['left','left','left','center']" data-hoffset="['-20','-20','-20','0']" data-y="['top','top','top','top']" data-voffset="['275','275','257','257']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"+1190","speed":1500,"frame":"0","from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(2,2,2);bs:solid;bw:0 0 0 0;"}]' data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[16,16,16,16]" data-paddingright="[55,55,55,55]" data-paddingbottom="[16,16,16,16]" data-paddingleft="[55,55,55,55]" style="z-index: 9; white-space: nowrap; font-size: 16px; line-height: 24px; font-weight: 300; color: rgba(255,255,255,1); letter-spacing: ;font-family:Open Sans;text-transform:uppercase;background-color:rgb(255, 19, 0);border-color:rgba(0,0,0,1);border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Read More </div>
+						</div>
+						<div class="tp-caption tp-resizeme" id="slide-89-layer-1" data-x="['right','right','right','right']" data-hoffset="['140px','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']" data-width="none" data-height="none" data-whitespace="nowrap" data-visibility="['on','on','off','off']" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1500,"frame":"0","from":"x:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]' data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5;"><img src="img/png-file-(1)-(1).png" alt="" data-ww="['400px','400px','400px','400px']" data-hh="['822','738','738','738']" data-no-retina> </div>
+					</li>
+				</ul>
+				<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+			</div>
+		</div>
+		<section class="position-relative pt-160 pb-220 pt-xs-50 pb-xs-70 brk-bgi-1 brk-bgi-1 brk-bg-pattern brk-mt-minus-280" id="about">
+			<span class="brk-abs-bg-overlay" style="background-color: rgba(249, 251, 255, 0.96);"></span>
+			<span class="brk-svg-pattern-container brk-svg-pattern-container-7-top brk-svg-pattern-container_top" data-brk-library="component__svg_pattern">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 144">
+					<defs>
+						<path id="svg-pattern-id-1-1" d="M0 657.88s316.8-72.16 689-15.96c256.8 38.77 524.63 105.83 756 116.7 218.56 10.27 420.43-40.37 475-63.95V616H0z" />
+					</defs>
+					<g>
+						<g transform="translate(0 -616)">
+							<use fill="#fff" xlink:href="#svg-pattern-id-1-1" />
+						</g>
+					</g>
+				</svg>
+			</span>
+			<span class="brk-svg-pattern-container brk-svg-pattern-container-7-bottom brk-svg-pattern-container_bottom" data-brk-library="component__svg_pattern">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 144">
+					<defs>
+						<path id="svg-pattern-id-1-2" d="M1920 1489.12s-316.8 72.16-689 15.96c-256.8-38.77-524.63-105.83-756-116.7-218.56-10.27-420.43 40.37-475 63.95V1531h1920z" />
+					</defs>
+					<g>
+						<g transform="translate(0 -1387)">
+							<use fill="#fff" xlink:href="#svg-pattern-id-1-2" />
+						</g>
+					</g>
+				</svg>
+			</span>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3"></div>
+					<div class="col-12 col-md-6">
+						<div class="text-center mb-lg-100 mt-20 mt-lg-0 mb-40">
+							<h2 class="font__family-montserrat font__size-56 font__weight-ultralight line__height-60 mb-25">About Us</h2>
+							<h3 class="brk-dark-font-color font__size-15 font__weight-normal line__height-24 title-lines-solid title-lines-main" data-brk-library="component__title">
+								<span class="line" style="background:rgba(var(--brand-primary-rgb), 0.2)"></span>
+								<span class="text">Know about us, our jouney and our mission</span>
+									<span class="line" style="background:rgba(var(--brand-primary-rgb), 0.2)"></span>
+							</h3>
+						</div>
+					</div>
+				</div>
+				<div class="services__wrapper-main services__wrapper-pedestal active__effect-main" data-brk-library="component__services">
+					<div class="row no-gutters align-items-center">
+						<div class="col-lg-12">
+							<p>
+								LOBATTA Incense Hub is a leading name in incense stick manufacturing segment of the country and offers a complete range of high-quality loose, scented and package incense stick. Through our pure incense stick, we aim to connect everyone’s soul to his/her spiritual master and help him/her attain divine peace in life.
+							</p>
+							<p>With the complete range of high-quality incense sticks under our portfolio, LOBATTA Incense Hub is a name to reckon with in national and international incense stick manufacturing domain. Advanced manufacturing facilities, Dedicated QA labs, Fragrance of Portfolio, Complete Customer’s Satisfactions, Superior Service and Quick delivery time help LOBATTA Incense Hub in producing authentic incense sticks for every consumer segment and devout soul.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="pt-50 pb-70 bg-white" id="shop">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3"></div>
+					<div class="col-12 col-md-6">
+						<div class="text-center mb-50">
+							<h2 class="font__family-montserrat font__size-56 font__weight-ultralight line__height-60 mb-25">Different Varities</h2>
+							<h3 class="brk-dark-font-color font__size-15 font__weight-normal line__height-24 title-lines-solid title-lines-main" data-brk-library="component__title">
+								<span class="line" style="background:rgba(var(--brand-primary-rgb), 0.2)"></span>
+								<span class="text">Check our wide range of products available in different varities.</span>
+									<span class="line" style="background:rgba(var(--brand-primary-rgb), 0.2)"></span>
+							</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="flip-box brk-sc-flip-two text-center" data-brk-library="component__shop_flip,component__flip_box_css,scrollbar">
+							<div class="flip flip_horizontal">
+								<div class="flip__front brk-sc-flip-two__front">
+									<div class="brk-sc-flip-two__thumb">
+										<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/portfolio/01.png" alt="alt" class="lazyload">
+									</div>
+									<div class="brk-sc-flip-two__description">
+										<div class="brk-sc-flip-two__front-title font__family-montserrat font__weight-light brk-dark-font-color">Spiritual Fragrance</div>
+									</div>
+								</div>
+								<div class="flip__back brk-sc-flip-two__back">
+									<div class="brk-sc-flip-two__back-layer">
+										<div class="brk-sc-flip-two__back-title font__family-montserrat font__weight-medium">Spiritual Fragrance</div>
+										<div class="brk-sc-flip-two__list scrollbar-inner">
+											<ul class="pl-15 pr-15">
+												<li><i class="far fa-check brk-base-font-color"></i> Spiritual Lavender</li>
+												<li><i class="far fa-check brk-base-font-color"></i> Spiritual Musk</li>
+												<li><i class="far fa-check brk-base-font-color"></i> Spiritual Rose</li>
+												<li><i class="far fa-check brk-base-font-color"></i> Spiritual Sandalwood</li>
+												<li><i class="far fa-check brk-base-font-color"></i> Spiritual Nag</li>
+												<li><i class="far fa-check brk-base-font-color"></i> Spiritual Jasmin</li>
+												<li><i class="far fa-check brk-base-font-color"></i> Spiritual Panchouli</li>
+												<li><i class="far fa-check brk-base-font-color"></i> Spiritual Mogra</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="flip-box brk-sc-flip-two text-center" data-brk-library="component__shop_flip,component__flip_box_css,scrollbar">
+							<div class="flip flip_vertical">
+								<div class="flip__front brk-sc-flip-two__front">
+									<div class="brk-sc-flip-two__thumb">
+										<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/portfolio/02.png" alt="alt" class="lazyload">
+									</div>
+									<div class="brk-sc-flip-two__description">
+										<div class="brk-sc-flip-two__front-title font__family-montserrat font__weight-light brk-dark-font-color">Spice Fragrance</div>
+									</div>
+								</div>
+								<div class="flip__back brk-sc-flip-two__back">
+									<div class="brk-sc-flip-two__back-layer">
+										<div class="brk-sc-flip-two__back-title font__family-montserrat font__weight-medium">Spice Fragrance</div>
+										<div class="brk-sc-flip-two__list scrollbar-inner">
+											<ul class="pl-15 pr-15">
+												<li><i class="far fa-check brk-base-font-color"></i> Spice Cinnamone</li>
+												<li><i class="far fa-check brk-base-font-color"></i> Spice Clove</li>
+												<li><i class="far fa-check brk-base-font-color"></i> Spice Peppermint</li>
+												<li><i class="far fa-check brk-base-font-color"></i> Spice Lemongrass</li>
+												<li><i class="far fa-check brk-base-font-color"></i> Spice Rosemary</li>
+												<li><i class="far fa-check brk-base-font-color"></i> Spice Chocolate</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="flip-box brk-sc-flip-two text-center" data-brk-library="component__shop_flip,component__flip_box_css,scrollbar">
+							<div class="flip flip_vertical">
+								<div class="flip__front brk-sc-flip-two__front">
+									<div class="brk-sc-flip-two__thumb">
+										<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/portfolio/03.png" alt="alt" class="lazyload">
+									</div>
+									<div class="brk-sc-flip-two__description">
+										<div class="brk-sc-flip-two__front-title font__family-montserrat font__weight-light brk-dark-font-color">Classic Fragrance</div>
+									</div>
+								</div>
+								<div class="flip__back brk-sc-flip-two__back">
+									<div class="brk-sc-flip-two__back-layer">
+										<div class="brk-sc-flip-two__back-title font__family-montserrat font__weight-medium">Classic Fragrance</div>
+										<div class="brk-sc-flip-two__list scrollbar-inner">
+											<ul class="pl-15 pr-15">
+												<li><i class="far fa-check brk-base-font-color"></i> Amber</li>
+												<li><i class="far fa-check brk-base-font-color"></i> Lily</li>
+												<li><i class="far fa-check brk-base-font-color"></i> Night Queen</li>
+												<li><i class="far fa-check brk-base-font-color"></i> Orchid</li>
+												<li><i class="far fa-check brk-base-font-color"></i> Ylang-Ylang</li>
+												<li><i class="far fa-check brk-base-font-color"></i> China Flower</li>
+												<li><i class="far fa-check brk-base-font-color"></i> Blue Lotus</li>
+												<li><i class="far fa-check brk-base-font-color"></i> White Sage</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="flip-box brk-sc-flip-two text-center" data-brk-library="component__shop_flip,component__flip_box_css,scrollbar">
+							<div class="flip flip_horizontal">
+								<div class="flip__front brk-sc-flip-two__front">
+									<div class="brk-sc-flip-two__thumb">
+										<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/portfolio/04.png" alt="alt" class="lazyload">
+									</div>
+									<div class="brk-sc-flip-two__description">
+										<div class="brk-sc-flip-two__front-title font__family-montserrat font__weight-light brk-dark-font-color">Fruity Fragrance</div>
+									</div>
+								</div>
+								<div class="flip__back brk-sc-flip-two__back">
+									<div class="brk-sc-flip-two__back-layer">
+										<div class="brk-sc-flip-two__back-title font__family-montserrat font__weight-medium">Fruity Fragrance</div>
+										<div class="brk-sc-flip-two__list scrollbar-inner">
+											<ul class="pl-15 pr-15">
+												<li><i class="far fa-check brk-base-font-color"></i> Green Apple</li>
+												<li><i class="far fa-check brk-base-font-color"></i> Pineapple</li>
+												<li><i class="far fa-check brk-base-font-color"></i> Strawberry</li>
+												<li><i class="far fa-check brk-base-font-color"></i> Coconut</li>
+												<li><i class="far fa-check brk-base-font-color"></i> Kiwi</li>
+												<li><i class="far fa-check brk-base-font-color"></i> Fresh Mango</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="bg-white">
+			<div class="brk-paraxify overflow-hid" style="background-image: url(img/bg.jpg)" data-brk-library="component__parallax">
+				<span class="brk-abs-overlay brk-base-bg-light-blue"></span>
+				<div class="container">
+					<div class="row round__wrap scroll-show content__side-left">
+						<span class="parallax__bg-shape-lg brk-parallax__bg-color-md">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1787 480" preserveAspectRatio="none">
+								<defs>
+									<style>.a {
+              fill: #fff;
+              fill-rule: evenodd;
+            }</style>
+								</defs>
+								<path class="a" d="M1787,480c-132.55,0-240-107.45-240-240S1654.45,0,1787,0H0V480Z" />
+							</svg>
+						</span>
+						<div class="col-md-5">
+							<div class="pt-sm-120 pb-sm-120 pt-20 pb-20 text-center">
+								<h2 class="font__family-montserat font__weight-ultralight font__size-36 line__height-42 text-uppercase mt-20">
+									Engaging, purposeful
+								</h2>
+								<h2 class="font__family-roboto font__weight-light font__size-36 line__height-42 text-uppercase">
+									& soul soothing
+								</h2>
+								<a href="#" class="btn btn-inside-out btn-lg btn-icon btn-shadow border-radius-30 font__weight-normal mt-30 btn-min-width-200" data-brk-library="component__button">
+									<i class="fal fa-comments icon-inside" aria-hidden="true"></i>
+									<span class="before">Know More</span><span class="text">Click Me</span><span class="after">Know More</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="pt-lg-100 pt-60 pb-lg-100 pb-70 bg-white" id="portfolio">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3"></div>
+					<div class="col-12 col-md-6">
+						<div class="text-center mb-40 mb-lg-100">
+							<h2 class="font__family-montserrat font__size-56 font__weight-ultralight line__height-60 mb-25">Our Products</h2>
+							<h3 class="brk-dark-font-color font__size-15 font__weight-normal line__height-24 title-lines-solid title-lines-main" data-brk-library="component__title">
+								<span class="line" style="background:rgba(var(--brand-primary-rgb), 0.2)"></span>
+								<span class="text">Choose from our wide range of products</span>
+									<span class="line" style="background:rgba(var(--brand-primary-rgb), 0.2)"></span>
+							</h3>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-3 col-12">
+						<div class="brk-gallery-card brk-gallery-card_shadow" data-brk-library="component__gallery">
+							<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/portfolio/01.png" alt="alt" class="brk-gallery-card__img lazyload">
+							<a href="img/demo_agency_modern/370x370_1.jpg" data-fancybox="gallery" class="fancybox brk-gallery-card__overlay-full brk-bg-gradient-40deg-85-28 d-flex align-items-center justify-content-center">
+								<i class="fas fa-plus font__size-36 brk-white-font-color"></i>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 col-12">
+						<div class="brk-gallery-card brk-gallery-card_shadow" data-brk-library="component__gallery">
+							<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/portfolio/02.png" alt="alt" class="brk-gallery-card__img lazyload">
+							<a href="img/demo_agency_modern/370x370_2.jpg" data-fancybox="gallery" class="fancybox brk-gallery-card__overlay-full brk-bg-gradient-40deg-85-28 d-flex align-items-center justify-content-center">
+								<i class="fas fa-plus font__size-36 brk-white-font-color"></i>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 col-12">
+						<div class="brk-gallery-card brk-gallery-card_shadow" data-brk-library="component__gallery">
+							<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/portfolio/03.png" alt="alt" class="brk-gallery-card__img lazyload">
+							<a href="img/demo_agency_modern/370x370_3.jpg" data-fancybox="gallery" class="fancybox brk-gallery-card__overlay-full brk-bg-gradient-40deg-85-28 d-flex align-items-center justify-content-center">
+								<i class="fas fa-plus font__size-36 brk-white-font-color"></i>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 col-12">
+						<div class="brk-gallery-card brk-gallery-card_shadow" data-brk-library="component__gallery">
+							<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/portfolio/04.png" alt="alt" class="brk-gallery-card__img lazyload">
+							<a href="img/demo_agency_modern/370x370_4.jpg" data-fancybox="gallery" class="fancybox brk-gallery-card__overlay-full brk-bg-gradient-40deg-85-28 d-flex align-items-center justify-content-center">
+								<i class="fas fa-plus font__size-36 brk-white-font-color"></i>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 col-12">
+						<div class="brk-gallery-card brk-gallery-card_shadow" data-brk-library="component__gallery">
+							<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/portfolio/05.png" alt="alt" class="brk-gallery-card__img lazyload">
+							<a href="img/demo_agency_modern/370x370_5.jpg" data-fancybox="gallery" class="fancybox brk-gallery-card__overlay-full brk-bg-gradient-40deg-85-28 d-flex align-items-center justify-content-center">
+								<i class="fas fa-plus font__size-36 brk-white-font-color"></i>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 col-12">
+						<div class="brk-gallery-card brk-gallery-card_shadow" data-brk-library="component__gallery">
+							<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/portfolio/06.png" alt="alt" class="brk-gallery-card__img lazyload">
+							<a href="img/demo_agency_modern/370x370_6.jpg" data-fancybox="gallery" class="fancybox brk-gallery-card__overlay-full brk-bg-gradient-40deg-85-28 d-flex align-items-center justify-content-center">
+								<i class="fas fa-plus font__size-36 brk-white-font-color"></i>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 col-12">
+						<div class="brk-gallery-card brk-gallery-card_shadow" data-brk-library="component__gallery">
+							<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/portfolio/07.png" alt="alt" class="brk-gallery-card__img lazyload">
+							<a href="img/demo_agency_modern/370x370_7.jpg" data-fancybox="gallery" class="fancybox brk-gallery-card__overlay-full brk-bg-gradient-40deg-85-28 d-flex align-items-center justify-content-center">
+								<i class="fas fa-plus font__size-36 brk-white-font-color"></i>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 col-12">
+						<div class="brk-gallery-card brk-gallery-card_shadow" data-brk-library="component__gallery">
+							<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/portfolio/08.png" alt="alt" class="brk-gallery-card__img lazyload">
+							<a href="img/demo_agency_modern/370x370_8.jpg" data-fancybox="gallery" class="fancybox brk-gallery-card__overlay-full brk-bg-gradient-40deg-85-28 d-flex align-items-center justify-content-center">
+								<i class="fas fa-plus font__size-36 brk-white-font-color"></i>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 col-12">
+						<div class="brk-gallery-card brk-gallery-card_shadow" data-brk-library="component__gallery">
+							<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/portfolio/09.png" alt="alt" class="brk-gallery-card__img lazyload">
+							<a href="img/demo_agency_modern/370x370_9.jpg" data-fancybox="gallery" class="fancybox brk-gallery-card__overlay-full brk-bg-gradient-40deg-85-28 d-flex align-items-center justify-content-center">
+								<i class="fas fa-plus font__size-36 brk-white-font-color"></i>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 col-12">
+						<div class="brk-gallery-card brk-gallery-card_shadow" data-brk-library="component__gallery">
+							<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/portfolio/01.png" alt="alt" class="brk-gallery-card__img lazyload">
+							<a href="img/demo_agency_modern/370x370_10.jpg" data-fancybox="gallery" class="fancybox brk-gallery-card__overlay-full brk-bg-gradient-40deg-85-28 d-flex align-items-center justify-content-center">
+								<i class="fas fa-plus font__size-36 brk-white-font-color"></i>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 col-12">
+						<div class="brk-gallery-card brk-gallery-card_shadow" data-brk-library="component__gallery">
+							<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/portfolio/02.png" alt="alt" class="brk-gallery-card__img lazyload">
+							<a href="img/demo_agency_modern/370x370_11.jpg" data-fancybox="gallery" class="fancybox brk-gallery-card__overlay-full brk-bg-gradient-40deg-85-28 d-flex align-items-center justify-content-center">
+								<i class="fas fa-plus font__size-36 brk-white-font-color"></i>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 col-12">
+						<div class="brk-gallery-card brk-gallery-card_shadow" data-brk-library="component__gallery">
+							<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="img/portfolio/03.png" alt="alt" class="brk-gallery-card__img lazyload">
+							<a href="img/demo_agency_modern/370x370_12.jpg" data-fancybox="gallery" class="fancybox brk-gallery-card__overlay-full brk-bg-gradient-40deg-85-28 d-flex align-items-center justify-content-center">
+								<i class="fas fa-plus font__size-36 brk-white-font-color"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="position-relative pt-190 pb-220 brk-bg-center-cover pt-xs-80 pb-xs-70" style="background-image: url(img/demo_agency_modern/1920x916_1.jpg)" id="testimonials">
+			<span class="brk-svg-pattern-container brk-svg-pattern-container-7-top brk-svg-pattern-container_top" data-brk-library="component__svg_pattern">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 144">
+					<defs>
+						<path id="svg-pattern-id-3-1" d="M0 657.88s316.8-72.16 689-15.96c256.8 38.77 524.63 105.83 756 116.7 218.56 10.27 420.43-40.37 475-63.95V616H0z" />
+					</defs>
+					<g>
+						<g transform="translate(0 -616)">
+							<use fill="#fff" xlink:href="#svg-pattern-id-3-1" />
+						</g>
+					</g>
+				</svg>
+			</span>
+			<span class="brk-svg-pattern-container brk-svg-pattern-container-7-bottom brk-svg-pattern-container_bottom" data-brk-library="component__svg_pattern">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 144">
+					<defs>
+						<path id="svg-pattern-id-3-2" d="M1920 1489.12s-316.8 72.16-689 15.96c-256.8-38.77-524.63-105.83-756-116.7-218.56-10.27-420.43 40.37-475 63.95V1531h1920z" />
+					</defs>
+					<g>
+						<g transform="translate(0 -1387)">
+							<use fill="#fff" xlink:href="#svg-pattern-id-3-2" />
+						</g>
+					</g>
+				</svg>
+			</span>
+			<span class="brk-abs-bg-overlay brk-bg-gradient-40deg-72"></span>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3"></div>
+					<div class="col-12 col-md-6">
+						<div class="text-center mb-60 mb-xs-25">
+							<h5 class="font__size-21 font__family-montserrat font__weight-light text-gray" data-brk-library="component__title">Our reviews</h5>
+							<h3 class="font__family-montserrat font__weight-ultralight brk-white-font-color title-lines-solid title-lines-main" data-brk-library="component__title">
+								<span class="line" style="background:rgba(var(--white-rgb), 0.2)"></span>
+								<span class="text">What people say</span>
+								<span class="line" style="background:rgba(var(--white-rgb), 0.2)"></span>
+							</h3>
+						</div>
+					</div>
+				</div>
+				<div class="brk-testimonials-layered-vertical" data-brk-library="component__testimonials,slider__swiper">
+					<div class="brk-testimonials-layered-vertical__container">
+						<div class="overlay-vertical"></div>
+						<div class="layered-vertical-slider swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="brk-testimonials-layered-vertical__item layered-vertical-item">
+										<div class="brk-testimonials-layered-vertical__person">
+											<div class="brk-testimonials-layered-vertical__person-info">
+												<div class="brk-testimonials-layered-vertical__photo" style="background-image: url(img/demo_agency_modern/94x94_1.jpg)"></div>
+												<div class="brk-testimonials-layered-vertical__name font__family-montserrat font__weight-bold">Ostin Paterson</div>
+												<div class="brk-testimonials-layered-vertical__job font__family-open-sans letter-spacing-20">Client from Twitter</div>
+											</div>
+											<div class="brk-rating" data-brk-library="component__elements">
+												<div class="brk-rating__layer brk-dark-font-color">
+													<i class="fal fa-star"></i>
+													<i class="fal fa-star"></i>
+													<i class="fal fa-star"></i>
+													<i class="fal fa-star"></i>
+													<i class="fal fa-star"></i>
+												</div>
+												<div class="brk-rating__imposition brk-base-font-color" style="width: 80%">
+													<div class="visible">
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="brk-testimonials-layered-vertical__comment font__family-open-sans">From the war room to the battlefield, the world was continually blowing up around Diana Prince. Yet Diana, aka Wonder Woman, never lost focus on why she left the safety of Themyscira for war-torn Europe: to stop the evil Ares and end the war. No matter what got in her way, no matter how often her path was blocked, she didn't stop.</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="brk-testimonials-layered-vertical__item layered-vertical-item">
+										<div class="brk-testimonials-layered-vertical__person">
+											<div class="brk-testimonials-layered-vertical__person-info">
+												<div class="brk-testimonials-layered-vertical__photo" style="background-image: url(img/demo_agency_modern/94x94_2.jpg)"></div>
+												<div class="brk-testimonials-layered-vertical__name font__family-montserrat font__weight-bold">Anna Jonson</div>
+												<div class="brk-testimonials-layered-vertical__job font__family-open-sans letter-spacing-20">Client from Google</div>
+											</div>
+											<div class="brk-rating" data-brk-library="component__elements">
+												<div class="brk-rating__layer brk-dark-font-color">
+													<i class="fal fa-star"></i>
+													<i class="fal fa-star"></i>
+													<i class="fal fa-star"></i>
+													<i class="fal fa-star"></i>
+													<i class="fal fa-star"></i>
+												</div>
+												<div class="brk-rating__imposition brk-base-font-color" style="width: 80%">
+													<div class="visible">
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="brk-testimonials-layered-vertical__comment font__family-open-sans">Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Curabitur ullamcorper ultricies nisi.</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="brk-testimonials-layered-vertical__item layered-vertical-item">
+										<div class="brk-testimonials-layered-vertical__person">
+											<div class="brk-testimonials-layered-vertical__person-info">
+												<div class="brk-testimonials-layered-vertical__photo" style="background-image: url(img/demo_agency_modern/94x94_1.jpg)"></div>
+												<div class="brk-testimonials-layered-vertical__name font__family-montserrat font__weight-bold">Mike Paterson</div>
+												<div class="brk-testimonials-layered-vertical__job font__family-open-sans letter-spacing-20">Client from Yahoo</div>
+											</div>
+											<div class="brk-rating" data-brk-library="component__elements">
+												<div class="brk-rating__layer brk-dark-font-color">
+													<i class="fal fa-star"></i>
+													<i class="fal fa-star"></i>
+													<i class="fal fa-star"></i>
+													<i class="fal fa-star"></i>
+													<i class="fal fa-star"></i>
+												</div>
+												<div class="brk-rating__imposition brk-base-font-color" style="width: 80%">
+													<div class="visible">
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="brk-testimonials-layered-vertical__comment font__family-open-sans">For many small business owners and entrepreneurs, popular apps like Uber and Snapchat are sources of inspiration. It's easy to see the appeal of mobile apps: they can provide a direct connection between businesses and their customers, encouraging engagement by providing new services and perks.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-base-arrow-vertical button-prev"><i class="fas fa-arrow-down brk-white-font-color"></i></div>
+						<div class="swiper-base-arrow-vertical button-next"><i class="fas fa-arrow-up brk-white-font-color"></i></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="pt-90 pb-70 bg-white" id="contact" data-brk-library="component__form">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-6">
+						<form action="#" class="brk-subscribe-mail brk-subscribe-mail_dark brk-form brk-form-strict pt-20" data-brk-library="recaptcha">
+							<div class="row">
+								<div class="col-12 col-md-6">
+									<input type="text" placeholder="Your Name" name="FNAME">
+								</div>
+								<div class="col-12 col-md-6">
+									<input type="text" placeholder="Your Email" name="EMAIL">
+								</div>
+								<div class="col-12">
+									<textarea name="MESSAGE" placeholder="Your Question" style="min-height: 110px"></textarea>
+								</div>
+								<div class="col-12">
+									<div class="text-center">
+										<button class="btn btn-inside-out btn-md border-radius-25 btn-no-shadow pl-90 pr-90 mt-30" data-brk-library="component__button">
+											<span class="before">Contact Us</span><span class="text">Click Me</span><span class="after">Contact Us</span>
+										</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="col-lg-1"></div>
+					<div class="col-12 col-lg-5">
+						<h3 class="font__family-montserrat font__size-56 line__height-60 mb-25 text-center text-lg-left">
+							<span class="font__weight-ultralight">Need Help?</span>
+							<br>
+							<span class="font__weight-bold">Contact Us</span>
+						</h3>
+						<p class="brk-dark-font-color font__size-16 line__height-26 mb-40 text-center text-lg-left">
+							Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer class="brk-footer position-relative" data-brk-library="component__footer">
+		<div class="brk-footer__wrapper d-flex flex-column align-items-center border-bottom-3 brk-border-color-primary pt-110">
+			<img src="img/demo_agency_modern/1920x1080_4.jpg" alt="alt" class="brk-abs-img">
+			<span class="brk-abs-overlay brk-bg-gradient-40deg-72"></span>
+			<a href="#" class="d-inline-block mb-120">
+				<img src="img/png-logo-white.png" alt="alt">
+			</a>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-4">
+						<div class="text-center d-flex flex-column mb-50">
+							<div class="icon__cover" data-brk-library="component__services">
+								<a href="#" class="icon__btn icon__btn-sm icon__btn-anim icon__btn_clear" data-brk-library="component__button">
+									<i class="fa fa-phone" aria-hidden="true"></i>
+									<span class="before"></span><span class="after"></span>
+								</a>
+							</div>
+							<p class="brk-white-font-color font__family-montserrat font__size-24 line__height-24 mb-15 font__weight-semibold">
+								Phone
+							</p>
+							<a href="#" class="brk-white-font-color font__family-open-sans font__size-24 line__height-32">+91 8888 8888 88</a>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="text-center d-flex flex-column mb-50">
+							<div class="icon__cover" data-brk-library="component__services">
+								<a href="#" class="icon__btn icon__btn-sm icon__btn-anim icon__btn_clear" data-brk-library="component__button">
+									<i class="fa fa-map-marker" aria-hidden="true"></i>
+									<span class="before"></span><span class="after"></span>
+								</a>
+							</div>
+							<p class="brk-white-font-color font__family-montserrat font__size-24 line__height-24 mb-15 font__weight-semibold">
+								Address
+							</p>
+							<p class="brk-white-font-color font__family-open-sans font__size-24 line__height-32">
+								Gujarat<br>
+               India
+            </p>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="text-center d-flex flex-column mb-50">
+							<div class="icon__cover" data-brk-library="component__services">
+								<a href="#" class="icon__btn icon__btn-sm icon__btn-anim icon__btn_clear" data-brk-library="component__button">
+									<i class="fa fa-envelope" aria-hidden="true"></i>
+									<span class="before"></span><span class="after"></span>
+								</a>
+							</div>
+							<p class="brk-white-font-color font__family-montserrat font__size-24 line__height-24 mb-15 font__weight-semibold">
+								Email
+							</p>
+							<a href="mailto:info@domain.com" class="brk-white-font-color font__family-open-sans font__size-24 line__height-32">hello@labotta.com</a>
+						</div>
+					</div>
+					<hr class="horiz-line mt-0 mb-20">
+					<div class="text-center mb-25 w-100">
+						<p class="brk-white-font-color font__family-open-sans font__size-14">© 2021 <span class="font__weight-bold">Lobatta.</span> All rights reserved</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<a href="#top" id="toTop"></a>
+	<script defer="defer" src="js/scripts.min.js"></script>
+	<script defer="defer" src="vendor/revslider/js/jquery.themepunch.tools.min.js"></script>
+	<script defer="defer" src="vendor/revslider/js/jquery.themepunch.revolution.min.js"></script>
+	<script defer="defer" src="vendor/revslider/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script defer="defer" src="vendor/revslider/js/extensions/revolution.extension.navigation.min.js"></script>
+	<script defer="defer" src="vendor/revslider/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script>
+		var revapi17,
+			tpj;
+		(function() {
+			if (!/loaded|interactive|complete/.test(document.readyState)) document.addEventListener("DOMContentLoaded", onLoad);
+			else onLoad();
+
+			function onLoad() {
+				if (tpj === undefined) {
+					tpj = jQuery;
+					if ("off" == "on") tpj.noConflict();
+				}
+				if (tpj("#rev_slider_17_1").revolution == undefined) {
+					revslider_showDoubleJqueryError("#rev_slider_17_1");
+				} else {
+					revapi17 = tpj("#rev_slider_17_1").show().revolution({
+						sliderType: "standard",
+						jsFileLocation: "vendor/revslider/js/",
+						sliderLayout: "fullwidth",
+						dottedOverlay: "none",
+						delay: 6000,
+						navigation: {
+							keyboardNavigation: "off",
+							keyboard_direction: "horizontal",
+							mouseScrollNavigation: "off",
+							mouseScrollReverse: "default",
+							onHoverStop: "off",
+							arrows: {
+								style: "gyges",
+								enable: true,
+								hide_onmobile: true,
+								hide_under: 991,
+								hide_onleave: true,
+								hide_delay: 200,
+								hide_delay_mobile: 1200,
+								tmp: '',
+								left: {
+									h_align: "left",
+									v_align: "center",
+									h_offset: 20,
+									v_offset: 0
+								},
+								right: {
+									h_align: "right",
+									v_align: "center",
+									h_offset: 20,
+									v_offset: 0
+								}
+							},
+							bullets: {
+								enable: true,
+								hide_onmobile: false,
+								hide_over: 992,
+								style: "zeus",
+								hide_onleave: false,
+								direction: "horizontal",
+								h_align: "center",
+								v_align: "bottom",
+								h_offset: 0,
+								v_offset: 20,
+								space: 5,
+								tmp: '<span class="tp-bullet-image"></span><span class="tp-bullet-imageoverlay"></span><span class="tp-bullet-title">{{title}}</span>'
+							}
+						},
+						responsiveLevels: [1240, 1024, 778, 480],
+						visibilityLevels: [1240, 1024, 778, 480],
+						gridwidth: [1900, 1366, 800, 576],
+						gridheight: [910, 768, 960, 720],
+						lazyType: "none",
+						minHeight: "720",
+						shadow: 0,
+						spinner: "spinner0",
+						stopLoop: "off",
+						stopAfterLoops: -1,
+						stopAtSlide: -1,
+						shuffle: "off",
+						autoHeight: "off",
+						disableProgressBar: "on",
+						hideThumbsOnMobile: "off",
+						hideSliderAtLimit: 0,
+						hideCaptionAtLimit: 0,
+						hideAllCaptionAtLilmit: 0,
+						debugMode: false,
+						fallbacks: {
+							allowHTML5AutoPlayOnAndroid: false,
+							simplifyAll: "on",
+							nextSlideOnWindowFocus: "off",
+							disableFocusListener: false,
+						}
+					});
+				}; /* END OF revapi call */
+			}; /* END OF ON LOAD FUNCTION */
+		}()); /* END OF WRAPPING FUNCTION */
+	</script>
+</body>
+
+</html>
